@@ -1,0 +1,11 @@
+# Nunca subir el juego ni nada derivado de su contenido
+*.gb
+*.gbc
+*.zip
+*.7z
+*.rar
+*.jsonl
+*.xdelta
+traduccion/
+trabajo/
+build*/
