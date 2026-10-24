@@ -5,7 +5,7 @@
 Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/game-boy-color/mario-tennis)**.
 
 Traducción al **español de España** de *Mario Tennis* (Game Boy Color, 2001), el
-juego de tenis de Camelot y Nintendo con modo historia en la Real Academia de Tenis.
+juego de tenis de Camelot y Nintendo con modo historia en la Real Academia de tenis.
 Se ha traducido desde la versión **estadounidense en inglés**.
 
 La traducción se reparte como **parche**: no incluye el juego. Necesitas tu propia
@@ -13,7 +13,7 @@ copia para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.0 — Primera publicación](../../releases/tag/v1.0)**.
+Última versión: **[v1.1 — Terminología de Mario Power Tennis](../../releases/tag/v1.1)**.
 
 | Parte | Estado |
 |---|---|
@@ -26,7 +26,10 @@ copia para aplicarlo.
 | Logotipo «MARIO TENNIS» y nombre del modo «MARIO TOUR» | Se conservan, por ser imagen de marca |
 | Revisión durante una partida | Parcial (ver abajo) |
 
-Los términos de tenis siguen el uso de España (saque, resto, volea, globo, dejada,
+Desde la v1.1, los nombres de la Academia y algunos términos siguen los de su secuela de
+Game Boy Advance, *Mario Power Tennis*: Liga Alevín, Liga Juvenil y Liga Profesional, Open
+Isla, Centro de práctica, Lanzapelotas, servicio ganador, volea ganadora y punto de break.
+El resto de términos de tenis siguen el uso de España (saque, resto, volea, globo, dejada,
 remate, liftado, cortado, iguales, ventaja, tie-break, *ace* y *passing shot*). Lo que
 se dice a tu personaje y a tu pareja vale igual si es chico o chica. Mario y compañía
 conservan su «-a» característico.
@@ -51,11 +54,11 @@ conservan su «-a» característico.
   **guardar y cargar** (también arrancando en frío), partidos de exhibición completos,
   los minijuegos disponibles con sus reglas, el diccionario y los datos guardados.
   Las cuatro rondas suman unos 100 minutos de juego y más de 8.500 capturas, todas
-  revisadas. La versión publicada se ha comprobado con una prueba de humo
-  (presentación, partida nueva, diálogos y carga de una partida guardada); respecto a
-  la anterior solo cambian los rótulos de la presentación.
-- **Pendiente:** una partida completa (no se ha llegado al Open de la Isla, a las
-  clases sénior ni a Mundo Mario en el juego, aunque su texto está revisado), algunos
+  revisadas. La v1.1 se ha vuelto a jugar desde partida nueva (unos 26 minutos: el
+  recorrido guiado por la Academia, el menú de preguntas, logros, un partido con sus
+  mensajes y estadísticas, el diccionario y guardar y cargar).
+- **Pendiente:** una partida completa (no se ha llegado al Open Isla, a las
+  ligas superiores ni a Mundo Mario en el juego, aunque su texto está revisado), algunos
   mensajes del partido que no salieron en las pruebas (falta, doble falta, red, bola
   de set, récord), el juego por cable, la prueba en consola física y una revisión
   humana independiente. La traducción y su revisión se han hecho con asistencia de
@@ -85,15 +88,24 @@ conservan su «-a» característico.
    Si el MD5 no coincide, el parche fallará.
 3. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
-   - **Linux / macOS**: `xdelta3 -d -s "Mario Tennis (USA).gbc" mario-tennis-gbc-es-v1.0.xdelta "Mario Tennis (ES).gbc"`
+   - **Linux / macOS**: `xdelta3 -d -s "Mario Tennis (USA).gbc" mario-tennis-gbc-es-v1.1.xdelta "Mario Tennis (ES).gbc"`
 4. Comprueba que la ROM resultante mide **4.194.304 bytes** (4 MB) y tiene MD5
-   **`6bd8a7a4802168b412b22b0765095692`**.
+   **`69cc327486aafefa39d53014dd6c1983`**.
 5. Empieza una **partida nueva** en tu emulador o flashcart (debe admitir ROMs MBC5
    de 4 MB, como la mayoría).
 
 Las partidas guardadas con la versión inglesa no se han probado con la traducida.
 
 ## Cambios por versión
+
+### v1.1 — 25 de octubre de 2026
+
+- La Academia y el torneo usan ahora los nombres de *Mario Power Tennis* (GBA): Liga Alevín,
+  Liga Juvenil, Liga Profesional, Open Isla, Centro de práctica, Lanzapelotas y más, gracias al
+  glosario de Don Yevon.
+- Servicio ganador, volea ganadora y punto de break en el texto, el diccionario y los
+  rótulos del partido (el rótulo «REMATE / GANADOR» se mantiene porque «VOLEA / GANADORA»
+  no cabe).
 
 ### v1.0 — 24 de octubre de 2026
 
