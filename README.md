@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/game-boy-color/mario-tennis)**.
+
 Traducción al **español de España** de *Mario Tennis* (Game Boy Color, 2001), el
 juego de tenis de Camelot y Nintendo con modo historia en la Real Academia de Tenis.
 Se ha traducido desde la versión **estadounidense en inglés**.
