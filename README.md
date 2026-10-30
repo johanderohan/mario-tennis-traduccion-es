@@ -13,7 +13,7 @@ copia para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.1 — Terminología de Mario Power Tennis](../../releases/tag/v1.1)**.
+Última versión: **[v1.2 — Taller, reparto de EXP y segunda revisión](../../releases/tag/v1.2)**.
 
 | Parte | Estado |
 |---|---|
@@ -28,7 +28,8 @@ copia para aplicarlo.
 
 Desde la v1.1, los nombres de la Academia y algunos términos siguen los de su secuela de
 Game Boy Advance, *Mario Power Tennis*: Liga Alevín, Liga Juvenil y Liga Profesional, Open
-Isla, Centro de práctica, Lanzapelotas, servicio ganador, volea ganadora y punto de break.
+Isla, Centro de prácticas, Lanzapelotas, Cafetería, los equipos Imperial, Factoría y Unión,
+saque directo, volea ganadora y punto de juego, de set, de partido y de break.
 El resto de términos de tenis siguen el uso de España (saque, resto, volea, globo, dejada,
 remate, liftado, cortado, iguales, ventaja, tie-break, *ace* y *passing shot*). Lo que
 se dice a tu personaje y a tu pareja vale igual si es chico o chica. Mario y compañía
@@ -56,12 +57,17 @@ conservan su «-a» característico.
   Las cuatro rondas suman unos 100 minutos de juego y más de 8.500 capturas, todas
   revisadas. La v1.1 se ha vuelto a jugar desde partida nueva (unos 26 minutos: el
   recorrido guiado por la Academia, el menú de preguntas, logros, un partido con sus
-  mensajes y estadísticas, el diccionario y guardar y cargar).
+  mensajes y estadísticas, el diccionario y guardar y cargar), y la v1.2 otra vez
+  (unos 26 minutos: recorrido guiado, reparto de EXP, la pantalla de equipo del Taller,
+  un partido completo y el diccionario).
 - **Pendiente:** una partida completa (no se ha llegado al Open Isla, a las
   ligas superiores ni a Mundo Mario en el juego, aunque su texto está revisado), algunos
   mensajes del partido que no salieron en las pruebas (falta, doble falta, red, bola
-  de set, récord), el juego por cable, la prueba en consola física y una revisión
-  humana independiente. La traducción y su revisión se han hecho con asistencia de
+  de set, récord), los diálogos del Taller con el objeto elegido (el fallo está corregido
+  y probado, pero no se ha visto en una partida real), el juego por cable, la prueba en
+  consola física y una revisión humana independiente. Siguen en inglés el rótulo final
+  «TO BE CONTINUED» y «LINKING…» del juego por cable; «LOB», «PARTIDO» al ganar (en vez de
+  «Juego, set y partido») y «NIVEL n LISTO» no se han podido cambiar porque no caben. La traducción y su revisión se han hecho con asistencia de
   IA. Por eso la versión figura «en revisión»; si encuentras algo, abre una incidencia.
 - Las mayúsculas acentuadas de la fuente pequeña (Á, É, Í, Ó, Ú) son algo más bajas
   que el resto, porque la letra no deja sitio encima para la tilde.
@@ -88,15 +94,26 @@ conservan su «-a» característico.
    Si el MD5 no coincide, el parche fallará.
 3. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
-   - **Linux / macOS**: `xdelta3 -d -s "Mario Tennis (USA).gbc" mario-tennis-gbc-es-v1.1.xdelta "Mario Tennis (ES).gbc"`
+   - **Linux / macOS**: `xdelta3 -d -s "Mario Tennis (USA).gbc" mario-tennis-gbc-es-v1.2.xdelta "Mario Tennis (ES).gbc"`
 4. Comprueba que la ROM resultante mide **4.194.304 bytes** (4 MB) y tiene MD5
-   **`69cc327486aafefa39d53014dd6c1983`**.
+   **`dd2d371b4f4aad11d6ee242fab23f821`**.
 5. Empieza una **partida nueva** en tu emulador o flashcart (debe admitir ROMs MBC5
    de 4 MB, como la mayoría).
 
 Las partidas guardadas con la versión inglesa no se han probado con la traducida.
 
 ## Cambios por versión
+
+### v1.2 — 30 de octubre de 2026
+
+- Corregido el Taller: los diálogos ya dicen qué raqueta o calzado te pones (salía un
+  hueco vacío), la pregunta de Sí/No tiene sentido y la pantalla de equipo está entera en
+  castellano.
+- Pantalla de reparto de EXP, cuadro del Open Isla, clasificación y más rótulos en
+  castellano; terminología de *Mario Power Tennis* ampliada (Cafetería, Imperial, Factoría,
+  Unión, saque directo, punto de juego/set/partido, Centro de prácticas).
+- Unas 200 frases corregidas y desbordamientos arreglados, gracias a la segunda revisión de
+  Don Yevon.
 
 ### v1.1 — 25 de octubre de 2026
 
